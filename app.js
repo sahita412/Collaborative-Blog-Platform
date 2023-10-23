@@ -122,6 +122,7 @@ app.get("/compose", function(req, res){
 });
 
 app.get("/logout", (req,res)=>{
+    //get request to logout
     req.logout(function(err){
         if(err){
             console.log(err);
@@ -184,16 +185,6 @@ app.get("/posts/:postId", function(req, res){
     });
 
 });
-
-// app.get("/about", function(req, res){
-//     //get request that renders about page of our blog
-//     res.render("about", {aboutContent: aboutContent});
-// });
-
-// app.get("/contact", function(req, res){
-//     //get request that renders contact page of our blog
-//     res.render("contact", {contactContent: contactContent});
-// });
 
 
 app.listen(3000, function() {
