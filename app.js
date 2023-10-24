@@ -59,7 +59,7 @@ passport.deserializeUser(function(user, cb) {
 passport.use(new GoogleStrategy({
     clientID: process.env.CLIENT_ID,
     clientSecret: process.env.CLIENT_SECRET,
-    callbackURL: "http://localhost:3000/auth/google/blogwebsite"
+    callbackURL: "https://breakable-cow-onesies.cyclic.app/auth/google/blogwebsite"
   },
   function(accessToken, refreshToken, profile, cb) {
     // console.log(profile);
