@@ -1,6 +1,6 @@
 ## Live Demo Link
 
-[Collablog App](https://breakable-cow-onesies.cyclic.app/)
+Deployment Link: [Collablog App](https://breakable-cow-onesies.cyclic.app/)
 
 # Project Samples
 
